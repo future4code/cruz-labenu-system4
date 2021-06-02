@@ -1,7 +1,8 @@
 import express, {Express} from 'express'
 import cors from 'cors'
 import { AddressInfo } from "net";
-import createStudent from './endpoints/create_user';
+import createStudent from './endpoints/create_student';
+import createTeacher from './endpoints/create_teacher';
 
 const app: Express = express();
 
@@ -18,3 +19,4 @@ const server = app.listen(process.env.PORT || 3003, () => {
 });
 
 app.post('/student', createStudent)
+app.post('/teacher', createTeacher)
