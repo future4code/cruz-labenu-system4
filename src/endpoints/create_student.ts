@@ -18,7 +18,7 @@ export default async function createStudent(req:Request,res:Response){
             Id_Class : reqBody.Id_Class
         }
         await connection('STUDENT').insert(newStudent)
-        res.status(200).send('estudante adicionado')
+        res.status(200).send('student added successfully')
     } catch (error) {
         res.status(400).send({message:error.message || error.sqlMessage}) 
     }
