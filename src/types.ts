@@ -32,3 +32,20 @@ export enum Module {
     mod7 = 7
 } 
 
+export enum ClassName {
+    EPPS = 'EPPS',
+    CRUZ = 'CRUZ',
+    DUMMONT = 'DUMMONT',
+    MOLINA = 'MOLINA',
+    JACKSON = 'JACKSON'
+} 
+
+export enum TeacherSkills {
+    REACT = 'REACT',
+    REDUX = 'REDUX',
+    CSS = 'CSS',
+    TESTES = 'TESTES',
+    TYPESCRIPT = 'TYPESCRIPT',
+    POO = 'POO',
+    BACKEND = 'BACKEND'
+}
