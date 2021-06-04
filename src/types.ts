@@ -22,7 +22,8 @@ export type Class ={
     Module:number
 }
 
-export enum Module {
+export enum Modules {
+    mod0 = 0, 
     mod1 = 1,
     mod2 = 2,
     mod3 = 3,
