@@ -8,6 +8,7 @@ import getUserById from './endpoints/getUserById';
 import getStudentByClass from './endpoints/getStudentByClass';
 import getTeacherByClass from './endpoints/getTeacherByClass';
 import deleteStudent from './endpoints/delete_Student';
+import updateModule from './endpoints/update_Module';
 
 const app: Express = express();
 
@@ -30,3 +31,4 @@ app.get('/student/:id', getUserById)
 app.get('/students/class', getStudentByClass)
 app.get('/teachers/class', getTeacherByClass)
 app.delete('/student', deleteStudent)
+app.put('/class', updateModule)
