@@ -157,3 +157,13 @@
 "Birth_Date": "1991-02-10",
 "Teacher_Email": "joao@labenu.com"
 }
+
+
+4. Popular Hobby
+
+INSERT INTO HOBBY VALUES ('1', 'Terapia'), ('2', 'Estudar'), ('3', 'Viajar');
+
+
+5. Popular Speciality
+
+INSERT INTO SPECIALITY VALUES ('1', 'REACT'), ('2', 'REDUX'), ('3', 'CSS'), ('4', 'TESTES'), ('5', 'TYPESCRIPT'), ('6', 'POO'), ('7', 'BACKEND');
