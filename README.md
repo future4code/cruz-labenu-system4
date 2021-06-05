@@ -1,6 +1,6 @@
 # LabenuSystem
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/5efbb5055f2478ba2bc322d0_icone_gif.gif](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/5efbb5055f2478ba2bc322d0_icone_gif.gif)
+https://uploads-ssl.webflow.com/5e790d30d198385b09366d8f/5f0ddfa5457382057f17ceb2_gif_quebracabeca.gif
 
 **Bem-vindo a escola de programação onde a educação se reinventa!** 
 
@@ -30,7 +30,8 @@ Para esse projeto são modelados três entidades : **Estudante (STUDENT), Profes
 
 → Classe - id, nome, data de início, data de término, lista de professores responsáveis, uma lista de alunos e módulo atual em que a turma está.
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/Untitled.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/52434685/120907206-16eb8700-c636-11eb-936f-d5212a4c5a36.png)
+
 
 ### 🟠 Requisitos Executados
 
