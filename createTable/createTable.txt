@@ -1,0 +1,33 @@
+1. Criar tabela de classe
+
+CREATE TABLE CLASS (
+				Id_Class INT NOT NULL PRIMARY KEY,
+                Class_Name VARCHAR(50) NOT NULL,
+                Initial_Date DATE NOT NULL,
+                Final_Date DATE NOT NULL,
+                Module INT NOT NULL
+);
+
+
+2. Criar tabela de estudante
+
+CREATE TABLE STUDENT (
+				Id_Student INT NOT NULL,
+                Student_Name VARCHAR(265) NOT NULL,
+                Student_Email VARCHAR(265) NOT NULL UNIQUE,
+                Birth_Date DATE NOT NULL,
+                Id_Class INT NOT NULL ,
+                FOREIGN KEY (Id_Class) REFERENCES CLASS(Id_Class)
+);
+
+3. Criar tabela de professor
+
+CREATE TABLE TEACHER (
+				Id_Teacher INT NOT NULL,
+                Id_Class INT NOT NULL ,
+                Teacher_Name VARCHAR(265) NOT NULL,
+                Teacher_Email VARCHAR(265) NOT NULL UNIQUE,
+                Birth_Date DATE NOT NULL,
+                FOREIGN KEY (Id_Class) REFERENCES CLASS(Id_Class)
+);
+
