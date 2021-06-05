@@ -5,6 +5,8 @@ import createStudent from './endpoints/create_student';
 import createTeacher from './endpoints/create_teacher';
 import createClass from './endpoints/create_class';
 import getUserById from './endpoints/getUserById';
+import getStudentByClass from './endpoints/getStudentByClass'
+import getTeacherByClass from './endpoints/getTeacherByClass'
 
 const app: Express = express();
 
@@ -24,3 +26,5 @@ app.post('/student', createStudent)
 app.post('/teacher', createTeacher)
 app.post('/class', createClass)
 app.get('/student/:id', getUserById)
+app.get('/students/class', getStudentByClass)
+app.get('/teachers/class', getTeacherByClass)
