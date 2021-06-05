@@ -1,6 +1,7 @@
 # LabenuSystem
 
-https://uploads-ssl.webflow.com/5e790d30d198385b09366d8f/5f0ddfa5457382057f17ceb2_gif_quebracabeca.gif
+![5efbb5055f2478ba2bc322d0_icone_gif (1)](https://user-images.githubusercontent.com/52434685/120907235-44d0cb80-c636-11eb-94f4-37fc890a2ceb.gif)
+
 
 **Bem-vindo a escola de programação onde a educação se reinventa!** 
 
