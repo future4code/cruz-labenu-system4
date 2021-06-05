@@ -2,6 +2,8 @@
 
 ![5efbb5055f2478ba2bc322d0_icone_gif (1)](https://user-images.githubusercontent.com/52434685/120907235-44d0cb80-c636-11eb-94f4-37fc890a2ceb.gif)
 
+<img src="https://user-images.githubusercontent.com/52434685/120907235-44d0cb80-c636-11eb-94f4-37fc890a2ceb.gif" width="48">
+
 
 **Bem-vindo a escola de programação onde a educação se reinventa!** 
 
