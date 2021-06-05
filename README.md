@@ -91,32 +91,39 @@ Para esse projeto são modelados três entidades : **Estudante (STUDENT), Profes
 
 ### 1. Criar Estudante
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/criarAluno.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/criarAluno.png)
+![criarAluno](https://user-images.githubusercontent.com/52434685/120907260-777ac400-c636-11eb-9e13-e01da1b82e84.png)
+
 
 ### 2. Criar Docente
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/criarProfessor.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/criarProfessor.png)
+![criarProfessor](https://user-images.githubusercontent.com/52434685/120907263-7f3a6880-c636-11eb-852a-039c4a5a3da6.png)
+
 
 ### 3. Criar Turma
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/criarClasse.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/criarClasse.png)
+![criarClasse](https://user-images.githubusercontent.com/52434685/120907275-8cefee00-c636-11eb-8129-17719767b133.png)
+
 
 ### 4. Pegar Estudante por Turma
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/pegarEstudanteporClasse.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/pegarEstudanteporClasse.png)
+![pegarEstudanteporClasse](https://user-images.githubusercontent.com/52434685/120907280-9bd6a080-c636-11eb-9bc9-75061d9d5aeb.png)
+
 
 ### 5. Pegar Professor por Turma
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/PegarProfessorPorClass.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/PegarProfessorPorClass.png)
+![PegarProfessorPorClass](https://user-images.githubusercontent.com/52434685/120907289-aabd5300-c636-11eb-92ab-1bb398473574.png)
+
 
 ### 6. Pegar Estudante por Id
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/PegarEstudantePorId.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/PegarEstudantePorId.png)
+![PegarEstudantePorId](https://user-images.githubusercontent.com/52434685/120907304-b90b6f00-c636-11eb-9e27-6133352e7a3a.png)
+
 
 ### 7. Deletar Estudante do Sistema
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/DeletarEstudante.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/DeletarEstudante.png)
+![DeletarEstudante](https://user-images.githubusercontent.com/52434685/120907315-c0327d00-c636-11eb-9141-0b6dc2f1250a.png)
+
 
 ### 8. Atualizar Módulo
 
-![LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/AtualizarModulo.png](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/AtualizarModulo.png)
+![AtualizarModulo](https://user-images.githubusercontent.com/52434685/120907321-c9234e80-c636-11eb-8e29-90feb5043aa8.png)
