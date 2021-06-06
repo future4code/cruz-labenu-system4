@@ -61,13 +61,11 @@ Para esse projeto são modelados três entidades : **Estudante (STUDENT), Profes
 
 ✔  Mudar turma de módulo.
 
-### 🟠 Em Construção
+✔ Exibir estudantes que possuam o mesmo hobby;
 
-→ Exibir estudantes que possuam o mesmo hobby;
+✔Remover estudante de uma turma;
 
-→ Remover estudante de uma turma;
-
-→ Remover docente de uma turma;
+✔ Remover docente de uma turma;
 
 ### 🟠 Acessando o Projeto
 
