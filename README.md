@@ -130,3 +130,15 @@ Para esse projeto são modelados três entidades : **Estudante (STUDENT), Profes
 ### 8. Atualizar Módulo
 
 ![AtualizarModulo](https://user-images.githubusercontent.com/52434685/120907321-c9234e80-c636-11eb-8e29-90feb5043aa8.png)
+
+### 9. Deletar estudante de uma classe
+![deleteStudentFromClass](https://user-images.githubusercontent.com/77751963/120937862-4f4a9e00-c6e6-11eb-9f1d-d4e65d9b48b0.png)
+
+### 10. Deletar Professor de uma classe
+![deleteTeacherFromClass](https://user-images.githubusercontent.com/77751963/120937879-6be6d600-c6e6-11eb-8c58-99dea15e066e.png)
+
+### 11. Buscar estudante pelo hobby
+![getStudentsByHobby](https://user-images.githubusercontent.com/77751963/120937889-773a0180-c6e6-11eb-9359-daaeff1d10ef.png)
+
+
+
