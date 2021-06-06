@@ -73,7 +73,10 @@ Para esse projeto são modelados três entidades : **Estudante (STUDENT), Profes
 1. Após baixar, instale as bibliotecas →  npm  i ;
 2. Criar as tabelas com o Script de CreateTable.txt na seguinte  ordem:
 
-[createTable.txt](https://github.com/future4code/cruz-labenu-system4/files/6604823/createTable.txt)
+
+
+[createTable.txt](https://github.com/future4code/cruz-labenu-system4/files/6604839/createTable.txt)
+
 
 - Criar a Tabela de Classe - CLASS;
 - Criar a Tabela de Estudante - STUDENT;
