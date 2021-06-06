@@ -5,6 +5,7 @@
 
 
 
+
 <img src="https://user-images.githubusercontent.com/52434685/120907235-44d0cb80-c636-11eb-94f4-37fc890a2ceb.gif" width="100">
 
 
@@ -91,9 +92,10 @@ Para esse projeto são modelados três entidades : **Estudante (STUDENT), Profes
 
 ### 🟠 Endpoints
 
-**Arquivo Json Postman** →
+**Arquivo Json Postman** → 
 
-[LabeSystem.postman_collection.json](LabenuSystem%20d9c3f6b363684185838d9e3fe0211735/LabeSystem.postman_collection.json)
+
+
 
 ### 1. Criar Estudante
 
