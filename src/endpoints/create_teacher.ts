@@ -7,7 +7,7 @@ export default async function createTeacher(req:Request,res:Response){
 const reqBody = req.body
 try{
 
-    //const TeacherSkill : TeacherSkills = reqBody.
+  
 
     if(!reqBody.Id_Teacher || !reqBody.Id_Class|| !reqBody.Teacher_Name || !reqBody.Teacher_Email || !reqBody.Birth_Date){
         throw new Error ('Please, check your information! You need complete all! of then!')
