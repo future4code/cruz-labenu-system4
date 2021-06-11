@@ -1,0 +1,68 @@
+1. Criar tabela de classe
+
+CREATE TABLE CLASS (
+				Id_Class INT NOT NULL PRIMARY KEY,
+                Class_Name VARCHAR(50) NOT NULL,
+                Initial_Date DATE NOT NULL,
+                Final_Date DATE NOT NULL,
+                Module INT NOT NULL
+);
+
+
+2. Criar tabela de estudante
+
+CREATE TABLE STUDENT (
+				Id_Student INT NOT NULL,
+                Student_Name VARCHAR(265) NOT NULL,
+                Student_Email VARCHAR(265) NOT NULL UNIQUE,
+                Birth_Date DATE NOT NULL,
+                Id_Class INT NOT NULL ,
+                FOREIGN KEY (Id_Class) REFERENCES CLASS(Id_Class)
+);
+
+3. Criar tabela de professor
+
+CREATE TABLE TEACHER (
+				Id_Teacher INT NOT NULL,
+                Id_Class INT NOT NULL ,
+                Teacher_Name VARCHAR(265) NOT NULL,
+                Teacher_Email VARCHAR(265) NOT NULL UNIQUE,
+                Birth_Date DATE NOT NULL,
+                FOREIGN KEY (Id_Class) REFERENCES CLASS(Id_Class)
+);
+
+
+4. Criar tabela Hobby
+
+CREATE TABLE HOBBY (
+	Id_Hobby INT NOT NULL primary key,
+    Hobby_Name VARCHAR(265) NOT NULL
+);
+
+
+5. Criar tabela Student_Hobby
+
+CREATE TABLE STUDENT_HOBBY (
+	Student_Id INT NOT NULL,
+    Hobby_Id INT NOT NULL,
+    FOREIGN KEY (Student_Id) REFERENCES STUDENT(Id_Student),
+    FOREIGN KEY (Hobby_Id) REFERENCES HOBBY(Id_Hobby)
+);
+
+
+6. Criar tabela Speciality
+
+CREATE TABLE SPECIALITY  (
+	Id_Speciality INT NOT NULL,
+    Speciality_Name VARCHAR(265) NOT NULL
+);
+
+
+7. Criar tabela Teacher_Speciality
+
+CREATE TABLE TEACHER_SPECIALITY  (
+	Teacher_Id INT NOT NULL,
+    Speciality_Id INT NOT NULL,
+    FOREIGN KEY (Teacher_Id) REFERENCES TEACHER(Id_Teacher),
+    FOREIGN KEY (Speciality_Id) REFERENCES SPECIALITY(Id_Speciality)
+);

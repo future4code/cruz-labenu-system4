@@ -1,0 +1,169 @@
+1. Popular classe
+
+
+2. Popular estudante
+
+{
+   "Id_Student":1,
+   "Student_Name":"Fayra",
+   "Student_Email":"fayra@gmail.com",
+   "Birth_Date":"1994-01-29",
+   "Id_Class":2
+}
+
+{
+   "Id_Student":2,
+   "Student_Name": "Nath",
+   "Student_Email":"nath@gmail.com",
+   "Birth_Date": "1991-10-13",
+   "Id_Class":2
+}
+
+{
+   "Id_Student":3,
+   "Student_Name":"Paula",
+   "Student_Email":"paulinha@gmail.com",
+   "Birth_Date": "1992-08-22",
+   "Id_Class":2
+}
+
+{
+    "Id_Student" :4,
+    "Student_Name": "Jatobá",
+    "Student_Email": "jatoba@gmail.com",
+    "Birth_Date": "1992-08-22",
+    "Id_Class":2
+}
+
+{
+    "Id_Student":5,
+    "Student_Name": "Marcos",
+    "Student_Email": "marcos@gmail.com",
+    "Birth_Date": "1992-08-30",
+    "Id_Class":2
+}
+
+{
+   "Id_Student":6,
+   "Student_Name":"Amanda",
+   "Student_Email":"amanda@gmail.com",
+   "Birth_Date": "1992-09-30",
+   "Id_Class":2
+}
+
+{
+   "Id_Student":7,
+   "Student_Name":"Luciana",
+   "Student_Email":"lu@gmail.com",
+   "Birth_Date": "1992-07-30",
+   "Id_Class":2
+}
+
+{
+   "Id_Student":8,
+   "Student_Name":"Milena Cacau",
+    "Student_Email":"cacau@gmail.com",
+   "Birth_Date": "1997-06-15",
+   "Id_Class":2
+}
+
+{
+   "Id_Student":9,
+   "Student_Name":"Laís",
+    "Student_Email":"lais@gmail.com",
+   "Birth_Date": "1994-06-15",
+   "Id_Class":2
+}
+
+{
+   "Id_Student":10,
+   "Student_Name":"Leonardo",
+    "Student_Email":"leo@gmail.com",
+   "Birth_Date": "1994-06-15",
+   "Id_Class":2
+}
+
+{
+   "Id_Student":11,
+   "Student_Name":"Eduardo",
+    "Student_Email":"eduardo@gmail.com",
+   "Birth_Date": "1992-04-15",
+   "Id_Class":5
+}
+
+{
+   "Id_Student":12,
+   "Student_Name":"Marcelino",
+    "Student_Email":"marcelino@gmail.com",
+   "Birth_Date": "1994-04-12",
+   "Id_Class":4
+}
+
+{
+   "Id_Student":13,
+   "Student_Name":"Sergio",
+    "Student_Email":"sergio@gmail.com",
+   "Birth_Date": "1992-01-11",
+   "Id_Class":3
+}
+
+{
+   "Id_Student":14,
+   "Student_Name":"Frank",
+    "Student_Email":"frank@gmail.com",
+   "Birth_Date": "1991-07-21",
+   "Id_Class":1
+}
+
+
+3. Popular professor
+
+{
+"Id_Teacher": 1,
+"Id_Class": 1, 
+"Teacher_Name": "Laís",
+"Birth_Date": "1994-05-07",
+"Teacher_Email": "lais@labenu.com"
+}
+
+{
+"Id_Teacher": 2,
+"Id_Class": 2, 
+"Teacher_Name": "Amanda",
+"Birth_Date": "1992-01-07",
+"Teacher_Email": "amanda@labenu.com"
+}
+
+{
+"Id_Teacher": 3,
+"Id_Class": 3, 
+"Teacher_Name": "Chijo",
+"Birth_Date": "1992-04-01",
+"Teacher_Email": "chijo@labenu.com"
+}
+
+{
+"Id_Teacher": 4,
+"Id_Class": 4, 
+"Teacher_Name": "Yuzo",
+"Birth_Date": "1993-06-09",
+"Teacher_Email": "yuzo@labenu.com"
+}
+
+{
+"Id_Teacher": 5,
+"Id_Class": 5, 
+"Teacher_Name": "João",
+"Birth_Date": "1991-02-10",
+"Teacher_Email": "joao@labenu.com"
+}
+
+
+4. Popular Hobby
+
+INSERT INTO HOBBY VALUES ('1', 'Terapia'), ('2', 'Estudar'), ('3', 'Viajar');
+
+
+5. Popular Speciality
+
+INSERT INTO SPECIALITY VALUES ('1', 'REACT'), ('2', 'REDUX'), ('3', 'CSS'), ('4', 'TESTES'), ('5', 'TYPESCRIPT'), ('6', 'POO'), ('7', 'BACKEND');
